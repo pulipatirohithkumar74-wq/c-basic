@@ -1,17 +1,12 @@
 #include <stdio.h>
 int main() {
     //Your Code goes here!
-    int a,i,sum=0;
+    int a,i,fact=1;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
-        if(i%2==0){
-             sum+=i; 
-        }
+        fact*=i;
         
     }
-             printf("%d\n",sum);
-
-    
-
+    printf("%d ",fact);
     return 0;
 }
